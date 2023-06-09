@@ -6,7 +6,7 @@
                 if arg=='Admin':
                     func()
                 else:
-                    print("He can't access the site")
+                    print("can't access the site")
     return innerfunc
 @outerdecorator('Admin','sandhya') 
 def my_func():
